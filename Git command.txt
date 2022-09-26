@@ -64,3 +64,6 @@ If you want to ignore files and folders then create .gitignore file by
 Inside this put files and folders name that you want to ignore
 
 If you want to ignore all .log files then write in .gitignore file "*.log"
+
+git by default ignore directory file which is empty
+If you want to ignore all 'dir' named directory then write in .gitignore file "dir/"
