@@ -48,3 +48,14 @@ Delete git repository
 
 For clone github repository
 ---> git clone https://github.com/KeyurChanchad/demo_java.git
+that will make a clone of demo_java with same named
+
+---> git clone https://github.com/KeyurChanchad/demo_java.git  DemoJava
+that will make a clone of demo_java with DemoJava named
+
+FILE STATUS LIFE CYCLE
+When you start git first time with "git init" command then your repository Initialized as git repository all the files and folders are not tracked means untracked. 
+You started tracked by "git add" command these files and folders status is unmodified .
+If you modify and type "git add" command then it goes to staged area.
+
+GIT IGNORE
