@@ -19,4 +19,16 @@ Initialized your working directory as empty Git repository
 
 Now check status
 
+To add file from Working directory to Staging area for commit
+---> git add filename
+
+If you want to add all files then type below command --a means All files
+---> git add --a
+
+To commit or finallize your files which are standing in Staging area
+---> git commit
+this will open vim edior press Insert then write #Your-commit then press Esc then :wq for quit
+
+If you don't do this type of headache
+---> git commit -m "Your-Commit-Message"
 
