@@ -1,0 +1,22 @@
+Git and GitHub
+Download Git 
+Git provide git bash terminal and git command line tool
+
+First set username and email for your git by below command
+---> git config --global user.name "KeyurChanchad"
+---> git config --global user.email "chanchadkeyur2001@gmail.com"
+To see username and email
+---> git config user.name
+---> git config user.email
+
+---> git config --list
+
+To know status of the git repository
+---> git status
+
+Initialized your working directory as empty Git repository
+---> git init
+
+Now check status
+
+
