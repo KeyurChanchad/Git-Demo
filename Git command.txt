@@ -32,3 +32,5 @@ this will open vim edior press Insert then write #Your-commit then press Esc the
 If you don't do this type of headache
 ---> git commit -m "Your-Commit-Message"
 
+To get all commit Message, time and Author
+---> git log
