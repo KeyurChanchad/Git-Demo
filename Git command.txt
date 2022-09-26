@@ -62,3 +62,5 @@ GIT IGNORE
 If you want to ignore files and folders then create .gitignore file by
 ---> touch .gitignore
 Inside this put files and folders name that you want to ignore
+
+If you want to ignore all .log files then write in .gitignore file "*.log"
