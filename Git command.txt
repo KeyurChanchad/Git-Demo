@@ -59,3 +59,6 @@ You started tracked by "git add" command these files and folders status is unmod
 If you modify and type "git add" command then it goes to staged area.
 
 GIT IGNORE
+If you want to ignore files and folders then create .gitignore file by
+---> touch .gitignore
+Inside this put files and folders name that you want to ignore
