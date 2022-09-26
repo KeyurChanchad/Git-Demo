@@ -11,13 +11,19 @@ To see username and email
 
 ---> git config --list
 
+Set linus editor
+---> git config --global core.editor vim
+---> git config --global core.editor emac's
+
 To know status of the git repository
 ---> git status
+First time it show no git repository then do next command
 
 Initialized your working directory as empty Git repository
 ---> git init
+this will create .git named folder that contain your repository content
 
-Now check status
+Now check Git status
 
 To add file from Working directory to Staging area for commit
 ---> git add filename
@@ -34,3 +40,11 @@ If you don't do this type of headache
 
 To get all commit Message, time and Author
 ---> git log
+
+
+CLONING A REMOTE GIT REPOSITORY
+Delete git repository
+---> rm -rf .git
+
+For clone github repository
+---> git clone https://github.com/KeyurChanchad/demo_java.git
