@@ -74,9 +74,11 @@ you have files in staging area for commit and now you modify this file and then 
 ---> git diff
 
 Add present working directory in git repository.
----> git add .  
-GIT DIFF STAGE
+---> git add . 
 
+GIT DIFF STAGE
+Show difference between Last Commit and Staging area
+---> git diff --staged
 
 
 

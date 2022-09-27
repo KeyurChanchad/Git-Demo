@@ -1,2 +1,4 @@
 This is git diff checking file
 now get differece between staging and working area.
+
+git diff --stage show differece between last commit and staging area.
