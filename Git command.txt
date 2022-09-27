@@ -86,5 +86,12 @@ Now this is headache If you directly push files from modifed to commit means ski
 ---> git commit -a -m "directly commit and skipping staging area"
 Remember onething, above command commit only tracked files not untracked or newly created.
 
+MOVING(DELETING) AND RENAME FIELS
+If you directy move or rename files then you manually add files in staging area to commit area.
 
+If you moving(deleting) by below command then directly add in staging area
+---> git rm first.txt
+
+If you want to rename filename by below command then directly add in staging area
+---> git mv first.txt first_rename.txt
 
