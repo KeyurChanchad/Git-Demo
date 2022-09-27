@@ -80,5 +80,11 @@ GIT DIFF STAGE
 Show difference between Last Commit and Staging area
 ---> git diff --staged
 
+SKIPPING THE STAGING AREA
+You modifed files and want to commit so you need to type "git add" command then type "git commit" command.
+Now this is headache If you directly push files from modifed to commit means skipping staging area.
+---> git commit -a -m "directly commit and skipping staging area"
+Remember onething, above command commit only tracked files not untracked or newly created.
+
 
 
