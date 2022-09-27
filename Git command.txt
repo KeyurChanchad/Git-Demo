@@ -145,6 +145,9 @@ GIT UNSTAGE AND UNMODIFY
 If you want to restore or unstaged files from staging area to modifed.
 ---> git restore --staged first_rename.txt
 
+If you want to compare modifed files with last commit. Mistekly modifed then get back of last commit file.
+---> git checkout -- first_rename.txt
 
-
+This will restore all last commits files
+---> git checkout -f 
 
