@@ -172,3 +172,8 @@ Google : How to generate SSH AND GGP key for github
 4. tail ssh-add ~/.ssh/id_rsc
 
 
+ALIAS
+---> git config --global alias.s status
+---> git config --global alias.c commit
+---> git config --global alias.unstage 'restore --staged --'
+---> git config --global alias.last 'log -p -1'
