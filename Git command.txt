@@ -131,8 +131,6 @@ Author: <author>
 <title-line>
 ---> git log --pretty=short
 
-
-
 It will show all commits with hash in oneline <hash> <title-line>
 ---> git log --pretty=oneline
 
@@ -142,6 +140,10 @@ Instead of days you can get weeks, months, years also.
 
 If you want to modifing commit message 
 ---> git commit --amend
+
+GIT UNSTAGE AND UNMODIFY 
+If you want to restore or unstaged files from staging area to modifed.
+---> git restore --staged first_rename.txt
 
 
 
