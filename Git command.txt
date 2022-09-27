@@ -151,3 +151,24 @@ If you want to compare modifed files with last commit by checkout command. Miste
 This will restore all last commits files
 ---> git checkout -f 
 
+GIT REMOTE 
+It will show remote branches
+---> git remote
+
+It will show fetch and push url of remote branch
+---> git remote -v
+
+Create your github account then new repository named "Git Demo"
+---> git remote add origin git@github.com:KeyurChanchad/Git-Demo.git
+
+Now push all commited files and folders from master repository to remote repository origin that is 'git@github.com:KeyurChanchad/Git-Demo.git'.
+---> git push -u origin master
+
+Now it getting errors due to NO PERMMISION is there.
+Google : How to generate SSH AND GGP key for github
+1. ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+2. eval "$(ssh-agent -s)"
+3.  ssh-add ~/.ssh/id_ed25519
+4. tail ssh-add ~/.ssh/id_rsc
+
+
