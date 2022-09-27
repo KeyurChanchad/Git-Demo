@@ -42,9 +42,10 @@ To get all commit Message, time and Author
 ---> git log
 
 
-CLONING A REMOTE GIT REPOSITORY
 Delete git repository
 ---> rm -rf .git
+
+CLONING A REMOTE GIT REPOSITORY
 
 For clone github repository
 ---> git clone https://github.com/KeyurChanchad/demo_java.git
@@ -99,3 +100,47 @@ If you want to rename filename by below command then directly add in staging are
 If you want to ignore 'myexcel.pub' tracked file. Add in .gitignore file. Now you changed or modifing your file this not ignore check by "git status" command.
 Because of those files are tracked till yet. Now you untracked files by below command.
 ---> git rm --cached myexcel.pub
+
+
+GIT LOG
+You can get history by 'up and down arrow key' and 'q' for quit.
+
+This command show all commits with commit hash(This is folder hash when you modify something hash will changed for security match it.), Author name and email, Date and commit. 
+---> git log
+
+It will show last commit with all the datails.
+---> git log -p
+
+It will show last n number of commits with all the details.
+---> git log -p -3
+
+It will show all commits with number of files changed, number of  insertions(+), number of  deletion(-).
+---> git log --stat
+
+It will show all commits with Author and Commiter
+commit <hash>
+Author: <author>
+Date:   <author-date>
+<title-line>
+<full-commit-message>
+---> git log --pretty=full
+
+It will show all commits with Author
+commit <hash>
+Author: <author>
+<title-line>
+---> git log --pretty=short
+
+
+
+It will show all commits with hash in oneline <hash> <title-line>
+---> git log --pretty=oneline
+
+It will show all commits of  2 days
+Instead of days you can get weeks, months, years also.
+---> git log --pretty=2.days
+
+
+
+
+
