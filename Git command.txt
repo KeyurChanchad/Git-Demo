@@ -67,3 +67,14 @@ If you want to ignore all .log files then write in .gitignore file "*.log"
 
 git by default ignore directory file which is empty
 If you want to ignore all 'dir' named directory then write in .gitignore file "dir/"
+
+GIT DIFF
+Show difference between Staging area and Working area
+you have files in staging area for commit and now you modify this file and then check git status it show your files in staging area and modifed files. Now run this command
+--->git diff
+
+GIT DIFF STAGE
+
+
+
+

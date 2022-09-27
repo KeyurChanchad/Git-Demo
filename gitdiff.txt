@@ -1,0 +1,2 @@
+This is git diff checking file
+now get differece between staging and working area.
