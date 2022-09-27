@@ -140,6 +140,8 @@ It will show all commits of  2 days
 Instead of days you can get weeks, months, years also.
 ---> git log --pretty=2.days
 
+If you want to modifing commit message 
+---> git commit --amend
 
 
 
