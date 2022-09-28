@@ -173,7 +173,30 @@ Google : How to generate SSH AND GGP key for github
 
 
 ALIAS
+alias command is for write long command in short
 ---> git config --global alias.s status
+Next time only type 'git s' it is same as 'git status'
+
 ---> git config --global alias.c commit
+Next time only type 'git c' it is same as 'git commit'
+
 ---> git config --global alias.unstage 'restore --staged --'
+Next time only type 'git unstage' it is same as 'git restore --staged first_rename.txt'. Here -- means filename
+
 ---> git config --global alias.last 'log -p -1'
+Next time only type 'git last' it is same as 'git log -p -1'
+
+
+BRANCH
+In git by default master branch is there.
+
+To see all branches
+---> git branch
+
+If you want to create other branch named 'develop'
+---> git checkout -b develop
+
+If you go back to master branch.
+---> git checkout master
+
+Remember onething, these branches are seperate from each other. First time master branch files and folders are coping in develop branch. Then modifing in develop branch does not effect in master branch. When you return to master it is as it when you left.
