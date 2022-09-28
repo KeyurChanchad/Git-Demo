@@ -1,3 +1,9 @@
+<!-- /   = Root directory
+.   = This location
+..  = Up a directory
+./  = Current directory
+../ = Parent of current directory
+../../ = Two directories backwards -->
 <!doctype html>
 <html lang="en">
   <head>
@@ -62,11 +68,21 @@
         </button>
       </div>
 
+
+      <div class="card" style="width: 18rem;">
+        <img id="img" src="" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <script>
-        let images = ["C:/Users/Lenovo/Desktop/Photos/p1.jpg", "C:/Users/Lenovo/Desktop/Photos/p2.jpg", "C:/Users/Lenovo/Desktop/Photos/p3.jpg"];
+        let images = ["p1.jpg", "p2.jpg", "p3.jpg"];
         let ran_img = Math.floor(Math.random() * images.length);
-        document.getElementById("").src = images[ran_img];
+        document.getElementById("img").src = images[ran_img];
     </script>
   </body>
 </html>
