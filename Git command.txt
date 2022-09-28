@@ -190,13 +190,53 @@ Next time only type 'git last' it is same as 'git log -p -1'
 BRANCH
 In git by default master branch is there.
 
-To see all branches
+To see all branches with current branch *
 ---> git branch
 
-If you want to create other branch named 'develop'
+If you want to create other branch named 'develop' 
 ---> git checkout -b develop
 
-If you go back to master branch.
+If you go back to master branch. (other branch)
 ---> git checkout master
 
-Remember onething, these branches are seperate from each other. First time master branch files and folders are coping in develop branch. Then modifing in develop branch does not effect in master branch. When you return to master it is as it when you left.
+Remember onething, these branches are seperate from each other. First time master branch files and folders are coping in develop branch. Then modifing in develop branch does not effect in master branch. When you return to master it is as it when you left. 
+
+.gitignore files and folders are not changable.
+
+It show all branches with <Hash> and last commit (master)
+---> git branch -v
+
+MERGING BRANCH
+merge bugfix branch to master reccomended type this command in master branch.
+---> git merge bugfix (master)
+
+CHECKING MERGED OR NOT MERGED BRANCH 
+show already merge branches (master)
+---> git branch --merge
+
+show not merge branches (master)
+---> git branch --no-merge
+
+
+DELETING BRANCH 
+Gives error if develop branch is not merged. (master)
+---> git branch -d develop
+
+No error gives and branch develop deleted. (master)
+---> git branch -D develop
+
+REMOTE 
+Add origin remote (master)
+---> git remote add origin https://github.com/KeyurChanchad/Git-Demo.git
+
+Push master branch to remote origin (master)
+---> git push -u origin master
+
+Push design branch to remote origin (design)
+---> git push origin design 
+
+Delete remote branch desing (master)
+---> git push -d origin design
+
+
+
